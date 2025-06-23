@@ -10,7 +10,7 @@ body {
     background-color: #fafafa;
 }
 
-.grid-container {
+.parent {
     display: grid;
     grid-template-areas:
         "header header"

@@ -3,14 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <link rel="stylesheet" href="reset.css">
-        <link rel="stylesheet" href="960.css">
-        <link rel="stylesheet" href="text.css">
-        <link rel="stylesheet" href="mi-estilo.css">
-
         <title>index</title>
-
-        
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="mi-estilo.css">
@@ -18,22 +11,23 @@
     <body>
         <h1>Welcome to the Index Page</h1>
         
-        <div class="grid-container"> <!-- o container_16 -->
+        <div class="parent"> <!-- o container_16 -->
             <!-- filas y columnas -->
             <div class="header">Encabezado principal</div>
-                <nav class="menu">
-            <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Servicios</a></li>
-                <li><a href="#">Acerca de</a></li>
-                <li><a href="#">Contacto</a></li>
-            </ul>
-                </nav>
+
+            <nav class="menu">
+                <ul>
+                    <li><a href="#" class="nav-item" data-contenido="inicio">Inicio</a></li>
+                <li><a href="#" class="nav-item" data-contenido="servicios">Servicios</a></li>
+                <li><a href="#" class="nav-item" data-contenido="acerca">Acerca de</a></li>
+                <li><a href="#" class="nav-item" data-contenido="contacto">Contacto</a></li>
+                </ul>
+            </nav>
              <main class="contenido">Contenido principal de la página</main>
              <footer class="footer">© 2025 - Todos los derechos reservados</footer>
-
         </div>
 
-        <script src="" async defer></script>
+        <script src="mi-java-script.js" defer></script>
+        
     </body>
 </html>
