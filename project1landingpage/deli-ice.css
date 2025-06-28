@@ -1,0 +1,40 @@
+.inline {
+    display: inline;
+}
+
+#bckgrTopSection {
+    background: url(assets/hielitosbckgr.jpg) center;
+    background-size: 100%;
+    color: white;
+}
+
+#background-color {
+    background-color: rgb(12, 51, 80);
+    color: white;
+}
+#logoTitle {
+    padding-left: 10px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.no-spaces {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.rowSpace {
+    padding-top: 10 !important;
+    padding-bottom: 10 !important;
+}
+
+#signuprow {
+    background-color: darkblue; 
+    padding-bottom: 10px;
+}
+.whiteText {
+    color: white;
+}
