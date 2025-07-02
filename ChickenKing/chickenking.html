@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Chicken King</title>
+    <link rel="stylesheet" href="main.css" type="text/css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Vibur&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <!-- ▄-▄-▄-▄-▄-▄-▄-▄-▄-▄-▄-▄-▄-▄-▄-▄-▄-▄-▄-▄-▄-▄-▄-▄-▄-▄-▄-▄-▄ ÍCONOS -▄-▄-▄-▄-▄-▄-▄-▄-▄-▄-▄-▄-▄-▄-▄-▄-▄-▄-▄-▄-▄-▄-▄-▄-▄-▄-▄-▄-▄-▄-▄-▄- -->
+    <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
+        <symbol id="check2" viewBox="0 0 16 16">
+            <path
+                d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z">
+            </path>
+        </symbol>
+        <symbol id="circle-half" viewBox="0 0 16 16">
+            <path d="M8 15A7 7 0 1 0 8 1v14zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16z"></path>
+        </symbol>
+        <symbol id="moon-stars-fill" viewBox="0 0 16 16">
+            <path
+                d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z">
+            </path>
+            <path
+                d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.734 1.734 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.734 1.734 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.734 1.734 0 0 0 1.097-1.097l.387-1.162zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L13.863.1z">
+            </path>
+        </symbol>
+        <symbol id="sun-fill" viewBox="0 0 16 16">
+            <path
+                d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z">
+            </path>
+        </symbol>
+    </svg>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.css">
+
+    <div class="container-fluid" id="background-color">
+        <div class="row text-center">
+            <h1 id="logo">Chicken King</h1>
+            <!-- <p>Your one-stop destination for the best chicken dishes.</p>
+            <a class="btn btn-primary btn-lg" href="http://apple.com" role="button">Order Now</a> -->
+        </div>
+        <div class="row">
+            <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+                <!-- Indicators -->
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="assets/pexels-barfisch-pix-115740.jpg" class="w-100 h-50 object-fit-cover"
+                            style="max-height: 80vh; object-fit: cover;" alt="Responsive image">
+                        <div class="carousel-caption text-start">
+                            <h3>Barfish</h3>
+                            <p>Enjoy it!</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/pexels-chanwalrus-1059943.jpg" class="d-block w-100"
+                            style="max-height: 80vh; object-fit: cover;" alt="Responsive image">
+                        <div class="carousel-caption">
+                            <h3>Chanwalrus</h3>
+                            <p>Enjoy it!</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/pexels-matvalina-15529775 (1).jpg" class="d-block w-100"
+                            style="max-height: 80vh; object-fit: cover;" alt="Responsive image">
+                        <div class="carousel-caption text-end">
+                            <h3>Matvalina</h3>
+                            <p>You've love the it!</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Left and right controls -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div><br>
+        <div class="row row-cols-2 row-cols-md-2 g-3">
+            <div class="col img-container">
+                <img src="assets/boneless1.jpg" class="img-fluid small-img" alt="Boneless Chicken">
+                <h1 class="textonimage">100% fresh</h1>
+            </div>
+            <div class="col img-container">
+                <img src="assets/bonelessConLechuga1.jpg" class="img-fluid small-img" alt="Boneless with Lettuce">
+                <h1 class="textonimage">Hand Made</h1>
+            </div>
+        </div><br>
+        <div class="row row-cols-2 row-cols-md-2 g-3">
+            <div class="col img-container">
+                <img src="assets/burguer1.jpg" class="img-fluid small-img" alt="Chicken Burguer">
+                <h1 class="textonimage">All Natural</h1>
+            </div>
+            <div class="col img-container">
+                <img src="assets/ensalada1.png" class="img-fluid small-img" alt="Chicken Salad">
+                <h1 class="textonimage">Tasty!</h1>
+            </div>
+        </div>
+
+        <div class="row text-center">
+            <h1><i class="bi bi-telephone-fill"></i>Order Now</h1>
+            <h1>281-330-8004</h1>
+        </div>
+    </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>

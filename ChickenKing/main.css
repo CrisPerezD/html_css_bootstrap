@@ -1,0 +1,54 @@
+#logo {
+  font-family: "Vibur", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 4.5rem;
+}
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+.carousel-caption h3,
+.carousel-caption p {
+  color: #f8f9fa;
+}
+.carousel-item img {
+  max-height: 100vh;
+  object-fit: cover;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  width: 10rem;
+  height: 10rem;
+  background-color: rgba(0,0,0,0.5);
+  border-radius: 50%;
+  background-size: 2rem 2rem;
+  text-decoration-thickness: 1.2rem;
+}
+
+.carousel-control-prev-icon:hover,
+.carousel-control-next-icon:hover {
+  background-color: rgba(0,0,0,0.7);
+}
+
+.small-img {
+  max-width: 200px;
+  height: auto;
+}
+
+.textonimage {
+  position: absolute;
+  color: white;
+  font-size: 3rem;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+  pointer-events: none;
+}
+
+.img-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
