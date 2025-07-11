@@ -1,0 +1,13 @@
+#hi {
+    color: red;
+}
+
+#title {
+    font-size: 5em;
+    font-weight: bold;
+    color: #fff;
+}
+
+body {
+    padding-bottom: 30px;
+}
